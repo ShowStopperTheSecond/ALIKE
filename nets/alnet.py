@@ -1,7 +1,8 @@
 import math
 import torch
 from torch import nn
-from pytorch_lightning.core.lightning import LightningModule
+# from pytorch_lightning.core.lightning import LightningModule
+from pytorch_lightning.core.module import LightningModule
 from torchvision.models import resnet
 from typing import Optional, Callable
 
